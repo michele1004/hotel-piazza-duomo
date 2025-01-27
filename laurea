@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>Hotel in Piazza Duomo</title>
+        <meta name="description" content="Questo è il riassunto della pagina Hotel in Piazza Duomo">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <meta property="og:title" content="Guarda che ho trovato online: Prenota una stanza presso l'Hotel in Piazza Duomo">
+        <meta property="og:description" content="Ho appena letto questa pagina: Questo è il riassunto della pagina Hotel in Piazza Duomo">
+        <meta property="og:image" content="http://www.miosito.it/hotel1.png">
+
+        <!--foglio stile font-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+        
+        <!--foglio stile icone-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+
+        <!--fogli stile personali-->
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" media="screen and (max-width: 1202px)" href="style_tablet.css">
+        <link rel="stylesheet" media="screen and (max-width: 400px)" href="style_mobile.css">
+
+        <style>
+            footer {
+             margin-top: auto;
+             background-color: #252850;
+             color: white;
+             text-align: center;
+             padding: 10px 0;
+            }
+
+            footer a {
+             color: #4CAF50;
+             text-decoration: none;
+            }
+
+            footer a:hover {
+             text-decoration: underline;
+            }
+            
+        </style>
+
+
+
+<a href="https://github.com/HotelPiazzaDuomo.git"></a>
+  
+
+
+
+    </head>
+    <body>
+
+        <div id="header_logo_menu" class="annulla_font">
+            <div class="container">
+                <div id="header_logo" class="div_inlinea div_centroverticale">
+                    <img src="hotel1.png" alt="Logo Hotel in Piazza Duomo">
+                    <img src="5.png">
+                </div>
+                
+                <div id="header_menu" class="div_inlinea div_centroverticale testo_destra font_normale">
+                    <ul>
+                        <li><a href="laurea.html">Home</a></li> 
+                        <li><a href="camere.html">Camere</a></li> 
+                        <li><a href="servizi.html">Servizi</a></li>
+                        <li><a href="prenota.html">Prenota</a></li>
+                    </ul> 
+                    
+                    <div id="header_menu_mobile" class="div_inlinea">
+                        <div id="header_menu_mobile_burger"><i class="fas fa-bars"></i></div>
+                        <ul>
+                            <li><a href="laurea.html">Home</a></li> 
+                        <li><a href="camere.html">Camere</a></li> 
+                        <li><a href="servizi.html">Servizi</a></li>
+                        <li><a href="prenota.html">Prenota</a></li>
+                        </ul> 
+                    </div>
+
+                </div>  
+            </div>                                  
+        </div>
+
+        
+        <div id="slider">
+            <div class="container">
+                <div id="img_slider">
+                    <a href="prenota.html">Vai alla prenotazione</a>
+                </div>                
+            </div>
+        </div>
+
+        <div id="headline">
+            <div class="container testo">
+                <h1 class="titolo font_grande">Hotel Piazza Duomo</h1>
+                <p class="testo font_piccolo">L'Hotel Piazza Duomo è un albergo a 5 stelle con 180 camere.</p>
+                <p class="testo font_piccolo">L'albergo offre una splendida vista sul Duomo di Milano.</p>
+            </div>
+        </div>  
+        <div class="flexslider carousel">
+            <ul class="slides">
+              <li>
+                <img src="Duomo.png" />
+              </li>
+              
+             <br>
+             <br>
+             <br>
+              <li>
+                <img src="interno.png" />
+              </li>
+              
+            </ul>
+        </div>
+    
+            <br>
+            <br>
+            <br>
+         <footer>
+                <div class="testo font_medio">
+               <p>Hotel Piazza Duomo - Piazza del Duomo,12- 20019 Milano(MI) - P.IVA 049342543543</p>
+                </div>
+                <div id="email-button" class="testo font_medio">
+                    <a href="mailto:hotel.piazzaduomo@gmail.com Salve, vorrei avere maggiori informazioni.">Contattaci via Email</a>
+                </div>
+                <div id="telefono-button" class="font_grande">
+                    <p>Chiama la Reception:</p>
+                    <a href="tel:+39021894537190" style="text-decoration:none; color:red; font-weight:bold;">
+                    📞 +39 02 189 45 37 190
+                    </a>
+                </div>
+         </footer>
+
+        
+        <div id="contatti_fixed">            
+            <a href="https://api.whatsapp.com/send/?phone=393259270250&text=Buongiorno%2C+vorrei+avere+ulteriori+informazioni" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>        
+        </div>  
+         
+        <br>
+        <br>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+.font_piccolo{font-size: 10px;}
+.font_normale{font-size: 12px;}
+.font_medio{font-size: 10px;}
+.font_grande{font-size: 20px;}
+
+#header_up{padding: 5px;}
+#header_up_search{width: 50%;}
+#header_up_search INPUT{width: 100%; box-sizing: border-box;}
+
+#header_logo{width:30%;}
+#header_menu{width:70%;}
+
+#slider{display: none;}
+
+.box_prodotto{width: 49%; margin: 0px 2% 0px 0px;}
+#products .container .box_prodotto:nth-child(2n){margin-right: 0px;}
+
+#footer .div_inlinea{display: block; width:auto; margin: 0px; text-align: center;}
+#footer_soon IMG{width:50%;}

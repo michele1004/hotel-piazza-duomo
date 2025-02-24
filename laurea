@@ -75,15 +75,7 @@
             </div>                                  
         </div>
 
-        
-        <div id="slider">
-            <div class="container">
-                <div id="img_slider">
-                    <a href="prenota.html">Vai alla prenotazione</a>
-                </div>                
-            </div>
-        </div>
-
+    
         <div id="headline">
             <div class="container testo">
                 <h1 class="titolo font_grande">Hotel Piazza Duomo</h1>

@@ -40,15 +40,7 @@ A:active{color: #000; text-decoration: none;}
 #header_menu A{display: inline-block; font-weight: bold; padding:5px 10px; border:solid 2px transparent;}
 #header_menu A:hover{text-decoration: none; border-color:rgb(124, 3, 3);}
 
-#img_slider{
-    position:relative; 
-    width: 1300px;
-    height: 500px; 
-    background-image: url('hotel.png'); 
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    background-position: right bottom;
-}
+
 
 #img_slider A{
     display: inline-block; 

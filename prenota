@@ -1,175 +1,271 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
+    <head>
+        <meta charset="utf-8">
 
-        <title>Hotel in Piazza Duomo</title>
-        <meta name="description" content="Questo è il riassunto della pagina Hotel in Piazza Duomo">
+        <title>Hotel  Piazza Duomo</title>
+        <meta name="description" content="Questo è il riassunto della pagina Hotel  Piazza Duomo">
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-        <meta property="og:title" content="Guarda che ho trovato online: Acquista i taralli Pugliesi online">
-        <meta property="og:description" content="Ho appena letto questa pagina: Questo è il riassunto della pagina Hotel in Piazza Duomo">
+        <meta property="og:title" content="Guarda che ho trovato online: Prenota una stanza presso l'Hotel  Piazza Duomo">
+        <meta property="og:description" content="Ho appena letto questa pagina: Questo è il riassunto della pagina Hotel  Piazza Duomo">
         <meta property="og:image" content="http://www.miosito.it/hotel1.png">
-
-        <!--foglio stile font-->
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
         
-        <!--foglio stile icone-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
-
+       
         <!--fogli stile personali-->
         <link href="style.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" media="screen and (max-width: 1202px)" href="style_tablet.css">
         <link rel="stylesheet" media="screen and (max-width: 400px)" href="style_mobile.css">
 
-        <style>
-          body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-            background-color: #f4f4f4;
-          }
-      
-          .carousel {
-            position: relative;
-            width: 80%;
-            max-width: 800px;
-            margin: 20px auto;
-            overflow: hidden;
-            border: 2px solid #ddd;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-          }
-      
-          .carousel-inner {
-            display: flex;
-            transition: transform 0.5s ease-in-out;
-          }
-      
-          .carousel-inner img {
-            width: 100%;
-            flex-shrink: 0;
-          }
-      
-          .carousel-arrow {
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            background-color: rgba(0, 0, 0, 0.5);
-            color: white;
-            border: none;
-            padding: 10px 15px;
-            cursor: pointer;
-            z-index: 10;
-            border-radius: 50%;
-          }
-      
-          .carousel-arrow.left {
-            left: 10px;
-          }
-      
-          .carousel-arrow.right {
-            right: 10px;
-          }
-      
-          .carousel-indicators {
-            text-align: center;
-            margin-top: 10px;
-          }
-      
-          
-          footer {
-            margin-top: auto;
-            background-color: #252850;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-          }
-      
-          footer a {
-            color: #4CAF50;
-            text-decoration: none;
-          }
-      
-          footer a:hover {
-            text-decoration: underline;
-          }
-        </style>
-         <style>
-         .booking-form {
-          max-width: 400px;
-          margin: 50px auto;
-          padding: 20px;
-          border: 1px solid #ddd;
-          border-radius: 5px;
-          background-color: #f9f9f9;
-          }
-         .booking-form h2 {
-          text-align: center;
-          margin-bottom: 20px;
-          }
-          .booking-form label {
-          display: block;
-          margin-bottom: 5px;
-          }
-         .booking-form input, 
-         .booking-form select, 
-         .booking-form button {
-          width: 100%;
-          padding: 10px;
-          margin-bottom: 15px;
-          border: 1px solid #ccc;
-          border-radius: 5px;
-         }
-         .booking-form button {
-          background-color: #4CAF50;
-          color: white;
-          border: none;
-          cursor: pointer;
-         }
-         .booking-form button:hover {
-          background-color: #45a049;
-         }
-        </style>
-</head>
-<body>
+    </head>
+    
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-color: #f4f4f4;
+    }
 
-<div class="carousel">
-  <button class="carousel-arrow left" onclick="prevSlide()">&#9664;</button>
-  <div class="carousel-inner" id="carousel">
-    <img src="hotel.png">
-    <img src="Duomo.png">
-    <img src="interno.png">
-    <img src="reception.png">
-    <img src="bar.png">
-    <img src="bagno2.png">
-    <img src="singola.png">
-    <img src="doppia.png">
-    <img src="tripla.png">
-    <img src="suite.png">
+    
+
+    
+    footer {
+      margin-top: auto;
+      background-color: #9a7b4f;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+    }
+   </style>
+   <style>
+   .booking-form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    }
+   .booking-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    }
+    .booking-form label {
+    display: block;
+    margin-bottom: 5px;
+    }
+   .booking-form input, 
+   .booking-form select, 
+   .booking-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   }
+   .booking-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+   }
+   .booking-form button:hover {
+    background-color: #45a049;
+   }
+  </style>
+  <style>
+    .whatsapp-icon {
+       position: fixed;
+       bottom: 20px;
+       right: 20px;
+       background-color: #25D366;
+       border-radius: 50%;
+       padding: 10px;
+       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .whatsapp-icon img {
+       width: 30px;
+       height: 30px;
+    }
+</style>
+
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
+    h1, h2 { color: #333; }
+    .container { max-width: 800px; margin: auto; }
+    .consent-box { margin-top: 20px; padding: 15px; border: 1px solid #ccc; background: #f9f9f9; }
+    button { margin-top: 10px; padding: 10px 15px; background: #28a745; color: white; border: none; cursor: pointer; }
+  </style>
+ 
+ <body>
+    <div id="header_logo_menu" class="annulla_font">
+        <div class="container">
+            <div id="header_logo" class="div_inlinea div_centroverticale">
+                <img src="hotel1.png" alt="Logo Hotel in Piazza Duomo">
+                <img src="5.png">
+            </div>
+            <div id="header_menu" class="div_inlinea div_centroverticale testo_destra font_medio">
+                <ul>
+                    <li><a href="laurea.html">Home</a></li> 
+                    <li><a href="camere.html">Camere</a></li> 
+                    <li><a href="servizi.html">Servizi</a></li>
+                    <li><a href="prenota.html">Prenota</a></li>
+                </ul> 
+                
+                <div id="header_menu_mobile" class="div_inlinea">
+                    <div id="header_menu_mobile_burger"><i class="fas fa-bars"></i></div>
+                    <ul>
+                        <li><a href="laurea.html">Home</a></li> 
+                        <li><a href="camere.html">Camere</a></li> 
+                        <li><a href="servizi.html">Servizi</a></li>
+                        <li><a href="prenota.html">Prenota</a></li>
+                    </ul> 
+                </div>
+
+            </div>  
+        </div>                                  
+    </div>
+
+    
+
+  <div class="booking-form">
+    <h2>Prenota il tuo soggiorno</h2>
+    <form action="/prenotazione" method="post">
+        <label for="name">Nome</label>
+        <input type="text" id="name" name="name" placeholder="Inserisci il tuo nome" required>
+
+        <label for="name">Cognome</label>
+        <input type="text" id="name" name="name" placeholder="Inserisci il tuo cognome" required>
+        
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Inserisci la tua email" required>
+        
+        <label for="checkin">Check-in</label>
+        <input type="date" id="checkin" name="checkin" required>
+        
+        <label for="checkout">Check-out</label>
+        <input type="date" id="checkout" name="checkout" required>
+
+        <label for="tipo di camera">Seleziona la camera</label>
+        <select id="camera">
+           <option value="singola">Singola</option>
+            <option value="doppia">Doppia</option>
+            <option value="tripla">Tripla</option>
+            <option value="suite">Suite</option>
+        </select>
+        
+        <label for="guests">Numero di ospiti</label>
+        <select id="guests" name="guests" required>
+            <option value="1">1 Ospite</option>
+            <option value="2">2 Ospiti</option>
+            <option value="3">3 Ospiti</option>
+            <option value="4">4 Ospiti</option>
+        </select>
+        
+       
+        <button type="submit" href="prenotazione.html">Prenota Ora</button>
+      
+    </form>
   </div>
-  <button class="carousel-arrow right" onclick="nextSlide()">&#9654;</button>
-</div>
-<div class="carousel-indicators" id="indicators">
-  <span class="active" onclick="goToSlide(0)"></span>
-  <span onclick="goToSlide(1)"></span>
-  <span onclick="goToSlide(2)"></span>
-  <span onclick="goToSlide(3)"></span>
-</div>
 
-<footer>
-  <p>&copy; 2025 Il Mio Sito Web. Tutti i diritti riservati. | <a href="#">Privacy Policy</a> | <a href="#">Contatti</a></p>
-</footer>
+  <div class="container">
+        
+    <h2>Consenso all'uso dei Dati Sensibili</h2>
+    <div class="consent-box">
+        <p>In conformità al GDPR, chiediamo il tuo consenso per trattare i tuoi dati sensibili.</p>
+        <input type="checkbox" id="consent" name="consent">
+        <label for="consent">Acconsento al trattamento dei miei dati sensibili</label>
+        <br>
+        <button onclick="submitConsent()">Conferma</button>
+    </div>
+    
+  </div>
 
-<script>
+  <script>
+    function submitConsent() {
+        let checkbox = document.getElementById("consent");
+        if (checkbox.checked) {
+            alert("Grazie per aver accettato il trattamento dei tuoi dati sensibili.");
+        } else {
+            alert("Devi accettare per procedere.");
+        }
+    }
+  </script>
+   
+  <br>
+  <br>
+  <br>
+ 
+  <footer>
+    <div class="testo font_medio">
+  <p>Hotel Piazza Duomo - Piazza del Duomo,12- 20019 Milano(MI) - P.IVA 049342543543</p>
+    </div>
+    <div id="email-button" class="testo font_medio">
+        <a href="mailto:hotel.piazzaduomo@gmail.com Salve, vorrei avere maggiori informazioni.">Contattaci via Email</a>
+    </div>
+    <div id="telefono-button" class="font_grande">
+     <p>Chiama la Reception:</p>
+     <a href="tel:021894537190" style="text-decoration:none; color:red; font-weight:bold;">
+     📞 02 189 45 37 190
+     </a>
+    </div>
+  </footer>
+
+  <script>
+    
+  
+    function updateCarousel() {
+      const carousel = document.getElementById('carousel');
+      const indicators = document.querySelectorAll('.carousel-indicators span');
+      carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+  
+      indicators.forEach((indicator, index) => {
+        indicator.classList.toggle('active', index === currentIndex);
+      });
+    }
+  
+    function nextSlide() {
+      const slides = document.querySelectorAll('.carousel-inner img');
+      currentIndex = (currentIndex + 1) % slides.length;
+      updateCarousel();
+    }
+  
+    function prevSlide() {
+      const slides = document.querySelectorAll('.carousel-inner img');
+      currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+      updateCarousel();
+    }
+  
+    function goToSlide(index) {
+      currentIndex = index;
+      updateCarousel();
+    }
+  </script>
+
+
+ <a href="https://wa.me/393259270250&text=Buongiorno%2C+vorrei+avere+ulteriori+informazioni" target="_blank" class="whatsapp-icon">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+ </a>  
+ 
+  
+
+ 
+
+ <script>
+    function closeBanner() {
+        document.getElementById("banner").style.display = "none";
+    }
+ </script>
+
+  <script>
   let currentIndex = 0;
 
-  function updateCarousel() {
+    function updateCarousel() {
     const carousel = document.getElementById('carousel');
     const indicators = document.querySelectorAll('.carousel-indicators span');
     carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
@@ -177,7 +273,7 @@
     indicators.forEach((indicator, index) => {
       indicator.classList.toggle('active', index === currentIndex);
     });
-  }
+    }
 
   function nextSlide() {
     const slides = document.querySelectorAll('.carousel-inner img');
@@ -185,17 +281,17 @@
     updateCarousel();
   }
 
-  function prevSlide() {
+   function prevSlide() {
     const slides = document.querySelectorAll('.carousel-inner img');
     currentIndex = (currentIndex - 1 + slides.length) % slides.length;
     updateCarousel();
-  }
+   }
 
-  function goToSlide(index) {
+   function goToSlide(index) {
     currentIndex = index;
     updateCarousel();
-  }
-</script>
+   }
+   </script>
 
-</body>
+ </body>
 </html>

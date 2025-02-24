@@ -1,20 +1,19 @@
+
+
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
 
-        <title>Hotel in Piazza Duomo</title>
-        <meta name="description" content="Questo è il riassunto della pagina Hotel in Piazza Duomo">
+        <title>Hotel Piazza Duomo</title>
+        <meta name="description" content="Questo è il riassunto della pagina Hotel Piazza Duomo">
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-        <meta property="og:title" content="Guarda che ho trovato online: Acquista i taralli Pugliesi online">
-        <meta property="og:description" content="Ho appena letto questa pagina: Questo è il riassunto della pagina Hotel in Piazza Duomo">
+        <meta property="og:title" content="Guarda che ho trovato online: Prenota una stanza presso l'Hotel  Piazza Duomo">
+        <meta property="og:description" content="Ho appena letto questa pagina: Questo è il riassunto della pagina Hotel  Piazza Duomo">
         <meta property="og:image" content="http://www.miosito.it/hotel1.png">
 
-        <!--foglio stile font-->
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
         
         <!--foglio stile icone-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
@@ -27,21 +26,26 @@
         <style>
             footer {
              margin-top: auto;
-             background-color: #252850;
+             background-color: #9a7b4f;
              color: white;
              text-align: center;
              padding: 10px 0;
             }
-
-            footer a {
-             color: #4CAF50;
-             text-decoration: none;
+        </style>
+        <style>
+            .whatsapp-icon {
+               position: fixed;
+               bottom: 20px;
+               right: 20px;
+               background-color: #25D366;
+               border-radius: 50%;
+               padding: 10px;
+               box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             }
-
-            footer a:hover {
-             text-decoration: underline;
+            .whatsapp-icon img {
+               width: 30px;
+               height: 30px;
             }
-            
         </style>
 
 
@@ -88,31 +92,52 @@
                 <div class="box_lista">
                     <div class="img_lista div_inlinea div_centroverticale"><img src="bagno2.png" class="img_100per"></div>
                     <div class="cont_lista div_inlinea div_centroverticale">
-                        <div class="cont_titolo_lista testo_sinistra"><h3>Bagno in camera</h3></div>
-                        <div class="cont_testo_lista testo_sinistra"><h1>ogni camera è presente un bagno privato.All'interno troverete tutto il necessario per il vostro relax.</h1></div>
+                        <div class="cont_titolo_lista testo_sinistra"><h1>Bagno in camera</h1></div>
+                        <div class="cont_testo_lista testo_sinistra"><h2>In ogni camera è presente un bagno privato. All'interno troverete tutto il necessario per il vostro relax.</h2></div>
                     </div>
                 </div>
                 <div class="box_lista">
                     <div class="img_lista div_inlinea div_centroverticale"><img src="reception.png" class="img_100per"></div>
                     <div class="cont_lista div_inlinea div_centroverticale">
-                        <div class="cont_titolo_lista testo_sinistra"><h3>Reception</h3></div>
-                        <div class="cont_testo_lista testo_sinistra">La nostra struttura offre un servizio di assistenza 24 ore al giorno e 7 giorni su 7.Il check in inizia alle ore 14.00,mentre il check out deve essere svolto entro le ore 11.30</div>
+                        <div class="cont_titolo_lista testo_sinistra"><h1>Reception</h1></div>
+                        <div class="cont_testo_lista testo_sinistra"><h2>La nostra struttura offre un servizio di assistenza 24 ore al giorno e 7 giorni su 7.Il check in inizia alle ore 14.00,mentre il check out deve essere svolto entro le ore 11.30</h2></div>
                     </div>
                 </div>
                 <div class="box_lista">
-                    <div class="img_lista div_inlinea div_centroverticale"><img src="bar.png" class="img_100per"></div>
-                    <div class="cont_lista div_inlinea div_centroverticale">
-                        <div class="cont_titolo_lista testo_sinistra"><h3>Servizio bar</h3></div>
-                        <div class="cont_testo_lista testo_sinistra">La nostra struttura offre un servizio bar aperto h24 al quale si può accedere mostrando la chiave elettronica della propria stanza e presentando un documento di riconoscimento in modo che il barista possa verificare che siate maggiorenni in caso vorreste consumare bevande alcoliche.</div>
+                    
+                        <div class="cont_titolo_lista testo_sinistra"><h1>Servizio bar</h1></div>
+                        <div class="cont_testo_lista testo_sinistra"><h2>La nostra struttura offre un servizio bar aperto h24 al quale si può accedere mostrando la chiave elettronica della propria stanza e presentando un documento di riconoscimento in modo che il barista possa verificare che siate maggiorenni in caso vorreste consumare bevande alcoliche.</h2></div>
                     </div>
                 </div>
+                <div class="box_lista">
+                    <div class="img_lista div_inlinea div_centroverticale"><img src="sala G. Verdi.png" class="img_100per"></div>
+                    <div class="cont_lista div_inlinea div_centroverticale">
+                        <div class="cont_titolo_lista testo_sinistra"><h1>Sala conferenza Giuseppe Verdi <br> (15 posti)</h1></div>
+                        <div class="cont_testo_lista testo_sinistra"></div>
+                    </div>
+                </div>
+                <div class="box_lista">
+                    <div class="img_lista div_inlinea div_centroverticale"><img src="sala G. Garibaldi.png" class="img_100per"></div>
+                    <div class="cont_lista div_inlinea div_centroverticale">
+                        <div class="cont_titolo_lista testo_sinistra"><h1>Sala conferenza Giuseppe Garibaldi (35 posti)</h1></div>
+                        <div class="cont_testo_lista testo_sinistra"></div>
+                    </div>
+                </div>
+                <div class="box_lista">
+                    <div class="img_lista div_inlinea div_centroverticale"><img src="sala G. Mazzini.png" class="img_100per"></div>
+                    <div class="cont_lista div_inlinea div_centroverticale">
+                        <div class="cont_titolo_lista testo_sinistra"><h1>Sala conferenza Giuseppe Mazzini (60 posti)</h1></div>
+                        <div class="cont_testo_lista testo_sinistra"></div>
+                    </div>
+                </div>
+
 
             </div>
         </div>
         
         <div id="footer_annuncio" class="div_inlinea div_centroverticale testo">
             <div class="titolo font_medio"><h3>Altri servizi</h3></div>
-            <div class="div_centroverticale font_piccolo">Colazione a Buffet dalle 7 alle 9,<br>Parcheggio privato,<br>Wi-Fi gratutito,<br>Servizio lavanderia h24 e 7/7,<br>Servizio bagagli<br>Servizio navetta.</div>
+            <div class="div_centroverticale font_medio">Colazione a Buffet dalle 7 alle 9,<br>Parcheggio privato,<br>Wi-Fi gratutito,<br>Servizio lavanderia h24 e 7/7,<br>Servizio bagagli<br>Servizio navetta.</div>
         </div>
         <br>
         <br>
@@ -131,18 +156,16 @@
             </div>
             <div id="telefono-button" class="font_grande">
                 <p>Chiama la Reception:</p>
-                <a href="tel:+39021894537190" style="text-decoration:none; color:red; font-weight:bold;">
+                <a href="tel:+39021894537190" style="text-decoration:none; color:black; font-weight:bold;">
                 📞 +39 02 189 45 37 190
                 </a>
             </div>
          </footer>
         
 
-        <div id="contatti_fixed">            
-            <a href="https://api.whatsapp.com/send/?phone=393259270250&text=Buongiorno%2C+vorrei+avere+ulteriori+informazioni" target="_blank">
-                <i class="fab fa-whatsapp"></i>
-            </a>        
-        </div>   
+        <a href="https://wa.me/393259270250&text=Buongiorno%2C+vorrei+avere+ulteriori+informazioni" target="_blank" class="whatsapp-icon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+        </a>  
         <br>
         <br>
         <br>

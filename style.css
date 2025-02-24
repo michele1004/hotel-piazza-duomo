@@ -95,21 +95,8 @@ A:active{color: #000; text-decoration: none;}
 
 #credits{padding: 20px;}
 
-#contatti_fixed{position: fixed; right:20px; bottom: 20px; z-index:2}
-#contatti_fixed A{display: inline-block; background-color: rgb(41, 163, 25) ; font-size: 24px; border-radius: 40px; width:40px; height:40px;}
-#contatti_fixed A:link{color: #FFF;}
-#contatti_fixed A:visited{color: #FFF;}
-#contatti_fixed A:hover{
-    color: #FFF; 
-    background-color: rgb(27, 112, 16);  
-    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
-    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
-}
-#contatti_fixed A:active{color: #FFF;}
-#contatti_fixed A I{margin-top: 7px;}
 
-
-#titolo_pagina H1{background-color: rgb(124, 3, 3); color: #FFF; padding:20px; text-transform: uppercase;}
+#titolo_pagina H1{background-color: #9a7b4f; color: black; padding:20px; text-transform: uppercase;}
 
 .box_lista{margin-bottom: 20px; padding-bottom:20px; border-bottom: dotted 2px #EEE;}
 .img_lista{width:30%;}

@@ -1,47 +1,47 @@
+
+
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
 
-        <title>Hotel in Piazza Duomo</title>
-        <meta name="description" content="Questo è il riassunto della pagina Hotel in Piazza Duomo">
+        <title>Hotel Piazza Duomo</title>
+        <meta name="description" content="Questo è il riassunto della pagina Hotel  Piazza Duomo">
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-        <meta property="og:title" content="Guarda che ho trovato online: Acquista i taralli Pugliesi online">
-        <meta property="og:description" content="Ho appena letto questa pagina: Questo è il riassunto della pagina Hotel in Piazza Duomo">
+        <meta property="og:title" content="Guarda che ho trovato online: Prenota una stanza presso l'Hotel  Piazza Duomo">
+        <meta property="og:description" content="Ho appena letto questa pagina: Questo è il riassunto della pagina Hotel  Piazza Duomo">
         <meta property="og:image" content="http://www.miosito.it/hotel1.png">
-
-        <!--foglio stile font-->
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
         
-        <!--foglio stile icone-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
-
+       
         <!--fogli stile personali-->
         <link href="style.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" media="screen and (max-width: 1202px)" href="style_tablet.css">
         <link rel="stylesheet" media="screen and (max-width: 400px)" href="style_mobile.css">
-
         <style>
             footer {
              margin-top: auto;
-             background-color: #252850;
+             background-color: #9a7b4f;
              color: white;
              text-align: center;
              padding: 10px 0;
             }
-
-            footer a {
-             color: #4CAF50;
-             text-decoration: none;
+        </style>
+        <style>
+            .whatsapp-icon {
+               position: fixed;
+               bottom: 20px;
+               right: 20px;
+               background-color: #25D366;
+               border-radius: 50%;
+               padding: 10px;
+               box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             }
-
-            footer a:hover {
-             text-decoration: underline;
+            .whatsapp-icon img {
+               width: 30px;
+               height: 30px;
             }
-            
         </style>
 
     </head>
@@ -115,18 +115,17 @@
             </div>
             <div id="telefono-button" class="font_grande">
                 <p>Chiama la Reception:</p>
-                <a href="tel:+39021894537190" style="text-decoration:none; color:red; font-weight:bold;">
+                <a href="tel:+39021894537190" style="text-decoration:none; color:black; font-weight:bold;">
                 📞 +39 02 189 45 37 190
                 </a>
             </div>
-         </footer>
+        </footer>
+         
+        <a href="https://wa.me/393259270250&text=Buongiorno%2C+vorrei+avere+ulteriori+informazioni" target="_blank" class="whatsapp-icon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+        </a>
 
-
-        <div id="contatti_fixed">            
-            <a href="https://api.whatsapp.com/send/?phone=393259270250&text=Buongiorno%2C+vorrei+avere+ulteriori+informazioni" target="_blank">
-                <i class="fab fa-whatsapp"></i>
-            </a>        
-        </div>  
+        
          
         <br>
         <br>

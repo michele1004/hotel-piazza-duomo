@@ -83,7 +83,7 @@
         <div id="products" class="annulla_font">
             <div class="container">
                 <div class="div_inlinea box_prodotto">
-                    <div class="immagine"><a href="#"><img src="singola.png" class="img_100per" alt="Camera Singola"></a></div>
+                    
                     <div class="titolo font_piccolo">Camera Singola</div>
                     <div class="testo font_piccolo">€200 a notte</div>
                 </div>

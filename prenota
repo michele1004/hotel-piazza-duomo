@@ -155,7 +155,7 @@
         <select id="camera">
            <option value="singola">Singola</option>
             <option value="doppia">Doppia</option>
-            <option value="tripla">Tripla</option>
+            <option value="tripla">Quadrupla</option>
             <option value="suite">Suite</option>
         </select>
         

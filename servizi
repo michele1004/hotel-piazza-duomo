@@ -90,14 +90,14 @@
             <div class="container">
                 
                 <div class="box_lista">
-                    <div class="img_lista div_inlinea div_centroverticale"><img src="bagno2.png" class="img_100per"></div>
+                    
                     <div class="cont_lista div_inlinea div_centroverticale">
                         <div class="cont_titolo_lista testo_sinistra"><h1>Bagno in camera</h1></div>
                         <div class="cont_testo_lista testo_sinistra"><h2>In ogni camera è presente un bagno privato. All'interno troverete tutto il necessario per il vostro relax.</h2></div>
                     </div>
                 </div>
                 <div class="box_lista">
-                    <div class="img_lista div_inlinea div_centroverticale"><img src="reception.png" class="img_100per"></div>
+                    
                     <div class="cont_lista div_inlinea div_centroverticale">
                         <div class="cont_titolo_lista testo_sinistra"><h1>Reception</h1></div>
                         <div class="cont_testo_lista testo_sinistra"><h2>La nostra struttura offre un servizio di assistenza 24 ore al giorno e 7 giorni su 7.Il check in inizia alle ore 14.00,mentre il check out deve essere svolto entro le ore 11.30</h2></div>
@@ -110,21 +110,21 @@
                     </div>
                 </div>
                 <div class="box_lista">
-                    <div class="img_lista div_inlinea div_centroverticale"><img src="sala G. Verdi.png" class="img_100per"></div>
+                   
                     <div class="cont_lista div_inlinea div_centroverticale">
                         <div class="cont_titolo_lista testo_sinistra"><h1>Sala conferenza Giuseppe Verdi <br> (15 posti)</h1></div>
                         <div class="cont_testo_lista testo_sinistra"></div>
                     </div>
                 </div>
                 <div class="box_lista">
-                    <div class="img_lista div_inlinea div_centroverticale"><img src="sala G. Garibaldi.png" class="img_100per"></div>
+                    
                     <div class="cont_lista div_inlinea div_centroverticale">
                         <div class="cont_titolo_lista testo_sinistra"><h1>Sala conferenza Giuseppe Garibaldi (35 posti)</h1></div>
                         <div class="cont_testo_lista testo_sinistra"></div>
                     </div>
                 </div>
                 <div class="box_lista">
-                    <div class="img_lista div_inlinea div_centroverticale"><img src="sala G. Mazzini.png" class="img_100per"></div>
+                    
                     <div class="cont_lista div_inlinea div_centroverticale">
                         <div class="cont_titolo_lista testo_sinistra"><h1>Sala conferenza Giuseppe Mazzini (60 posti)</h1></div>
                         <div class="cont_testo_lista testo_sinistra"></div>

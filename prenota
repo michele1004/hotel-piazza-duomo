@@ -216,82 +216,9 @@
     </div>
   </footer>
 
-  <script>
-    
-  
-    function updateCarousel() {
-      const carousel = document.getElementById('carousel');
-      const indicators = document.querySelectorAll('.carousel-indicators span');
-      carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
-  
-      indicators.forEach((indicator, index) => {
-        indicator.classList.toggle('active', index === currentIndex);
-      });
-    }
-  
-    function nextSlide() {
-      const slides = document.querySelectorAll('.carousel-inner img');
-      currentIndex = (currentIndex + 1) % slides.length;
-      updateCarousel();
-    }
-  
-    function prevSlide() {
-      const slides = document.querySelectorAll('.carousel-inner img');
-      currentIndex = (currentIndex - 1 + slides.length) % slides.length;
-      updateCarousel();
-    }
-  
-    function goToSlide(index) {
-      currentIndex = index;
-      updateCarousel();
-    }
-  </script>
-
-
  <a href="https://wa.me/393259270250&text=Buongiorno%2C+vorrei+avere+ulteriori+informazioni" target="_blank" class="whatsapp-icon">
   <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
  </a>  
  
-  
-
- 
-
- <script>
-    function closeBanner() {
-        document.getElementById("banner").style.display = "none";
-    }
- </script>
-
-  <script>
-  let currentIndex = 0;
-
-    function updateCarousel() {
-    const carousel = document.getElementById('carousel');
-    const indicators = document.querySelectorAll('.carousel-indicators span');
-    carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
-
-    indicators.forEach((indicator, index) => {
-      indicator.classList.toggle('active', index === currentIndex);
-    });
-    }
-
-  function nextSlide() {
-    const slides = document.querySelectorAll('.carousel-inner img');
-    currentIndex = (currentIndex + 1) % slides.length;
-    updateCarousel();
-  }
-
-   function prevSlide() {
-    const slides = document.querySelectorAll('.carousel-inner img');
-    currentIndex = (currentIndex - 1 + slides.length) % slides.length;
-    updateCarousel();
-   }
-
-   function goToSlide(index) {
-    currentIndex = index;
-    updateCarousel();
-   }
-   </script>
-
  </body>
 </html>
